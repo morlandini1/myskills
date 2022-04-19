@@ -19,7 +19,7 @@ export default function Home(){
         placeholderTextColor="#555"
       />
       <TouchableOpacity style={styles.button}>
-        <Text>Add</Text>
+        <Text style={styles.buttonText}>Add</Text>
       </TouchableOpacity>
 
     </View>
@@ -50,6 +50,12 @@ const styles = StyleSheet.create({
       backgroundColor: '#A370F7',
       padding: 15,
       borderRadius: 7,
-      alignItems: 'center'
+      alignItems: 'center',
+      marginTop: 20
+    },
+    buttonText: {
+      color: '#fff',
+      fontSize: 17,
+      fontWeight: "bold"
     }
 });
