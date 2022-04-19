@@ -17,8 +17,10 @@ export default function Home(){
         style={styles.input}
         placeholder="New skill"
         placeholderTextColor="#555"
-
       />
+      <TouchableOpacity style={styles.button}>
+        <Text>Add</Text>
+      </TouchableOpacity>
 
     </View>
   )
@@ -43,5 +45,11 @@ const styles = StyleSheet.create({
       padding: Platform.OS === 'ios' ? 15 : 10,
       marginTop: 30,
       borderRadius: 7
+    },
+    button: {
+      backgroundColor: '#A370F7',
+      padding: 15,
+      borderRadius: 7,
+      alignItems: 'center'
     }
 });
