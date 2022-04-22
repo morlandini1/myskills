@@ -60,7 +60,7 @@ const styles = StyleSheet.create({
     },
     title: {
       color: '#FFF',
-      fontSize: 24,
+      fontSize: 23,
       fontWeight: "bold"
     },
     input: {
