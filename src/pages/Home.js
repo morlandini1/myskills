@@ -18,7 +18,7 @@ export default function Home(){
   return (
     <View style={styles.container}>
       <Text style={styles.title}>
-        Welcome, Marcio!
+        Welcome, Marcio
       </Text>
 
       <TextInput 
