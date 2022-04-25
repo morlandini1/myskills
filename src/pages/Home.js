@@ -30,8 +30,7 @@ export default function Home(){
       <TouchableOpacity 
         style={styles.button}
         activeOpacity={.7} 
-        onPress={handleAddNewSkill} 
-        >
+        onPress={handleAddNewSkill}>
         <Text style={styles.buttonText}>Add</Text>
       </TouchableOpacity>
 
@@ -60,7 +59,7 @@ const styles = StyleSheet.create({
     },
     title: {
       color: '#FFF',
-      fontSize: 23,
+      fontSize: 24,
       fontWeight: "bold"
     },
     input: {
